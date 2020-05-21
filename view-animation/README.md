@@ -36,7 +36,7 @@
 | android:fillBefore | setFillBefore(boolean) | 控件动画结束时是否还原到开始动画前的状态 | 
 | android:fillEnabled | setFillEnabled(boolean) | 与android:fillBefore效果相同 | 
 | android:interpolator | setInterpolator(Interpolator) | 设定插值器（指定的动画效果，譬如回弹等） | 
-| android:repeatCount | setRepeatCount(int) | 重复次数 | 
+| android:repeatCount | setRepeatCount(int) | 重复次数 ,从零开始，0该动画执行一次，1，该动画执行两次，以次类推| 
 | android:repeatMode | setRepeatMode(int) | 重复类型有两个值，reverse表示倒序回放，restart表示从头播放 | 
 | android:startOffset | setStartOffset(long) | 调用start函数之后等待开始运行的时间，单位为毫秒 | 
 | android:zAdjustment | setZAdjustment(int) | 表示被设置动画的内容运行时在Z轴上的位置（top/bottom/normal），默认为normal | 
